@@ -1,0 +1,163 @@
+body {
+background-color: rgb(31, 31, 31);
+}
+* {
+padding: 0px;
+margin: 0px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,500&display=swap');
+/* ---------Barra de Navegacion del menu -----------*/
+
+
+.logo{width: 80px;
+height: auto;
+padding-left: 30px;
+padding-right: 10px;
+}
+.logo img { width: 80px;
+height: auto;}
+
+#text-menu {font-family:'Open Sans', sans-serif;
+text-align: center;
+font-style: italic;
+text-decoration: none;
+color: beige;
+}
+
+
+/* ---------ENCABEZADO Y COLUMNAS -----------*/
+.encabezado {
+text-align: center;
+color: bisque;
+}
+
+#iconos {
+font-size: 30px;
+color: bisque;
+}
+
+#map {width: 600px;
+height: 400px;
+display: flex;
+align-items: center;
+margin-left: 220px;}
+
+#columnas {text-align: center;
+padding: 40px;
+color: bisque;}
+
+.redes-sociales {text-align: center;
+}
+.redes-sociales a {text-decoration: none;}
+.redes-icon{padding: 15px;
+color: bisque;
+font-size: 35px;}
+/* ----------------------FORMULARIO-------------------------- */
+h3 {text-align: center;
+padding: 10px;
+color: bisque;}
+
+.form-container { padding-bottom: 30px;}
+
+.form-label {color: bisque;}
+
+.formulario 
+{margin-left: 400px;
+margin-right: 400px;
+padding: 25px;
+text-align: center;
+}
+
+#link a  {text-decoration: none;}
+
+/* ---------PIE DE PAGINA  -----------*/
+.footer 
+{display: flex;
+align-items: center;
+background-color: rgb(8, 8, 8);
+padding-top: 15px;
+} 
+.footer li {list-style:none;
+
+}
+.footer a {text-decoration: none;
+}
+.foot-logo {
+padding: 20px;}
+.foot-logo img {width: 50px;
+height: auto;
+margin-right: 10px;
+}
+
+#donmatute  {color: beige;
+font-size: 23px ;
+font-style: italic;
+}
+
+
+.medida-icono{padding: 8px;
+font-size: 25px;
+color: beige;
+}
+
+#foot-texto {padding-top: 5px;
+padding-bottom: 5px;
+color: beige;
+font-family: 'Open Sans', sans-serif; }
+
+.col a {color: beige;}
+
+.foot-columna{
+text-align:center;} 
+
+/* ---------RESPONSIVE -----------*/
+
+@media (min-width: 768px ) and  (max-width: 1200px )  {
+
+.formulario {margin-left: 100px;
+margin-right: 100px;}
+}
+
+
+/* ---------768px -----------*/
+
+
+@media (min-width: 768px) {
+.pantalla-chica {display: none;}
+
+}
+@media (max-width: 768px) {
+
+.formulario {margin: 80px;
+margin: 80px;}
+
+.pantalla-grande {display: none;}
+
+
+/* ---------PIE DE PAGINA  -----------*/
+.footer {margin: 0px;
+display: flex;
+flex-direction: column;}
+
+.foot-nav {padding-bottom: 10px;}
+
+
+
+}
+
+/* ---------576px -----------*/
+@media (max-width: 576px) { 
+
+
+#columnas {
+flex-direction: column;
+}
+.foot-logo img { margin-right: 0px;}
+.pantalla-grande {display: none;}
+
+.col-responsive {
+padding-top: 5px;
+padding-bottom: 5px;
+}
+
+}

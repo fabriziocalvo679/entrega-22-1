@@ -1,0 +1,125 @@
+*{ padding:0px;
+margin:0px;
+}
+
+#background{background-image: url(/img/background.jpg);
+background-repeat: no-repeat;
+background-position:center ;
+background-size: cover;
+}
+
+.logo{width: 80px;
+height: auto;
+padding-left: 30px;
+padding-right: 10px;
+}
+.logo img { width: 80px;
+height: auto;}
+.barra {padding-right: 40px;
+}
+.barra a {text-decoration: none;
+color: beige;
+}
+
+#text-menu {font-family:'Open Sans', sans-serif;
+text-align: center;
+font-style: italic;
+text-decoration: none;
+color: beige;
+}
+
+.barra li:hover {background-color: rgb(136, 136, 133);
+
+}
+
+#link a  {text-decoration: none;}
+
+/* ---------SECCION UNO   -----------*/
+
+.texto-central { text-align: center;
+padding: 300px;
+size: cover;
+position: center;}
+
+#pizzeria {color: rgb(187, 190, 9);
+font-family:'Open Sans', sans-serif;
+font-size: 80px;
+}
+
+#don-matute {color:rgb(22, 1, 1);
+font-family: 'Dancing Script', cursive;
+font-size: 80px;
+}
+
+/* ---------PIE DE PAGINA  -----------*/
+.footer 
+{display: flex;
+align-items: center;
+background-color: black;
+padding-top: 15px;
+} 
+.footer li {list-style:none;
+
+}
+.footer a {text-decoration: none;
+}
+.foot-logo {
+padding: 20px;}
+.foot-logo img { margin-right: 10px;
+width: 50px;
+height: auto;
+}
+
+#donmatute  {color: bisque;
+font-size: 23px ;
+font-style: italic;
+}
+
+
+.medida-icono{padding: 8px;
+font-size: 25px;
+color: beige;
+}
+
+#foot-texto {padding-top: 5px;
+padding-bottom: 5px;
+color: beige;
+font-family: 'Open Sans', sans-serif; }
+
+.col a {color: beige;}
+
+.foot-columna{
+text-align:center;} 
+
+/* ---------RESPONSIVE -----------*/
+
+@media (max-width: 768px) {
+
+.texto-central{ 
+padding: 200px;
+}
+
+#pizzeria {color: rgb(245, 121, 63);
+    font-family:'Open Sans', sans-serif;
+    font-size: 50px;
+    }
+    
+    #don-matute {color: rgb(192, 192, 192);
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    }
+
+/* ---------PIE DE PAGINA  -----------*/
+.footer {display: flex;
+flex-direction: column;}
+
+.foot-nav {padding-bottom: 10px;}
+
+}
+/* ---------576px -----------*/
+@media (max-width: 576px) { 
+
+
+
+.foot-logo img { margin-right: 0px;}
+}
